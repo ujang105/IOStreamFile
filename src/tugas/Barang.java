@@ -23,11 +23,16 @@ public class Barang {
         return stok;
     }
 
+    
     public String keBaris() {
         return nama + ";" + harga + ";" + stok;
     }
 
-    public String info() {
-        return nama + " | Harga: Rp" + harga + " | Stok: " + stok;
+   
+    public void info() {
+        System.out.println("Nama : " + nama);
+        System.out.println("Harga: Rp" + harga);
+        System.out.println("Stok : " + stok);
+        System.out.println("------------------------");
     }
 }
