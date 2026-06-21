@@ -1,10 +1,12 @@
+// Nama: Muhammad Raihan Ardhani
+// NPM: 2410010506
 package tugas;
 
 public class MainTugas {
 
     public static void main(String[] args) {
 
-       
+        
         String[] kategori = {
             "Elektronik",
             "Makanan",
